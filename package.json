@@ -1,0 +1,17 @@
+{
+  "name": "theme-one",
+  "version": "1.0.0",
+  "description": "First theme of rakuma productions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss/styles.scss:css/styles.css",
+    "build": "sass scss/styles.scss:css/styles.css --style compressed"
+  },
+  "author": "rakuma productions",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.26.7"
+  }
+}
